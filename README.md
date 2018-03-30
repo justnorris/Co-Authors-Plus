@@ -5,6 +5,7 @@
 * Tested up to: 4.8
 * Requires at least: 4.1
 * Stable tag: 3.2.2
+* Requires PHP: 5.6.0
 
 Assign multiple bylines to posts, pages, and custom post types via a search-as-you-type input box
 
