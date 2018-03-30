@@ -34,8 +34,8 @@ Author - user with the role of author
 
 // Setup PHP Version Requirements
 require_once( dirname( __FILE__ ) . '/class-cap-requirements.php' );
-$cap_requirements_message = esc_html__( '"Co Authors Plus" plugin was deactivated because it requires PHP 5.6.0. Please upgrade your hosting environment and reactivate the plugin.', 'co-authors-plus' );
-$cap_requirements = new CAP_Requirements('5.6.0', plugin_basename( __FILE__ ), $cap_requirements_message  );
+$cap_requirements_message 	= esc_html__( '"Co Authors Plus" plugin was deactivated because it requires PHP 5.6.0. Please upgrade your hosting environment and reactivate the plugin.', 'co-authors-plus' );
+$cap_requirements 			= new CAP_Requirements('5.6.0', plugin_basename( __FILE__ ), $cap_requirements_message  );
 
 // Load the plugin if PHP Requirements are met
 if ( $cap_requirements->enviroment_meets_requirements() ) {
