@@ -250,11 +250,12 @@ $ wp --url=example.com co-authors-plus create-terms-for-posts
 
 ## Installation
 
-1. IMPORTANT: Please disable the original Co-Authors plugin (if you are using it) before installing Co-Authors Plus
-2. Extract the coauthors-plus.zip file and upload its contents to the `/wp-content/plugins/` directory. Alternately, you can install directly from the Plugin directory within your WordPress Install.
-3. Activate the plugin through the "Plugins" menu in WordPress.
-4. Place the appropriate [co-authors template tags](http://vip.wordpress.com/documentation/incorporate-co-authors-plus-template-tags-into-your-theme/) in your template.
-5. Add co-authors to your posts and pages.
+1. Make sure your server is using PHP 5.6+
+2. IMPORTANT: Please disable the original Co-Authors plugin (if you are using it) before installing Co-Authors Plus
+3. Extract the coauthors-plus.zip file and upload its contents to the `/wp-content/plugins/` directory. Alternately, you can install directly from the Plugin directory within your WordPress Install.
+4. Activate the plugin through the "Plugins" menu in WordPress.
+5. Place the appropriate [co-authors template tags](http://vip.wordpress.com/documentation/incorporate-co-authors-plus-template-tags-into-your-theme/) in your template.
+6. Add co-authors to your posts and pages.
 
 ## Screenshots
 
