@@ -32,6 +32,11 @@ Co-author - in the context of a single post, a guest author or user assigned to 
 Author - user with the role of author
 */
 
+/**
+ * IMPORTANT:
+ * This file has to maintain PHP 5.2.4 compatibility so that the plugin could deactivate gracefully!
+ */
+
 // Setup PHP Version Requirements
 require_once dirname( __FILE__ ) . '/class-cap-requirements.php';
 $cap_requirements_message 	= esc_html__( '"Co Authors Plus" plugin was deactivated because it requires PHP 5.6.0. Please upgrade your hosting environment and reactivate the plugin.', 'co-authors-plus' );
